@@ -1,0 +1,40 @@
+body{
+    
+    background-color:#ADB5BD;
+}
+#HTML-Area,#CSS-Area,#JS-Area {
+    left: 0px;
+    width: 58%;
+    height: 180px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: 2px solid #343A40;
+    border-radius: 4px;
+    background-color: #495057;
+    font-size: 18px;
+    color: white;
+    resize: vertical;
+}
+#output
+{
+    position: absolute;
+    right: 10px;
+    box-sizing: border-box;
+    border: 2px solid #343A40;
+    border-radius: 4px;
+    background-color: #495057;
+    top: 13%;
+}
+.gap{
+    padding: 10px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #52b788;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
